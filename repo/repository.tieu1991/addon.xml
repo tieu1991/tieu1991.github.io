@@ -2,9 +2,9 @@
 <addon id="repository.tieu1991" name="tieu1991's repository" version="1.0" provider-name="tieu1991">
     <extension point="xbmc.addon.repository" name="tieu1991's repository">
         <dir>
-            <info compressed="false">https://raw.githubusercontent.com/tieu1991/repository.tieu1991/master/repo/zips/addons.xml</info>
-            <checksum>https://raw.githubusercontent.com/tieu1991/repository.tieu1991/master/repo/zips/addons.xml.md5</checksum>
-            <datadir zip="true">https://raw.githubusercontent.com/tieu1991/repository.tieu1991/master/repo/zips/</datadir>
+            <info compressed="false">https://raw.githubusercontent.com/tieu1991/tieu1991.github.io/master/repo/zips/addons.xml</info>
+            <checksum>https://raw.githubusercontent.com/tieu1991/tieu1991.github.io/master/repo/zips/addons.xml.md5</checksum>
+            <datadir zip="true">https://raw.githubusercontent.com/tieu1991/tieu1991.github.io/master/repo/zips/</datadir>
         </dir>
     </extension>
     <extension point="xbmc.addon.metadata">
