@@ -1,5 +1,21 @@
 <?xml version='1.0' encoding='utf-8'?>
-<addons><addon id="repository.tieu1991" name="tieu1991's repository" version="1.0" provider-name="tieu1991">
+<addons><addon id="plugin.video.piped4kodi" version="0.0.1" name="Piped4Kodi" provider-name="tieu1991">
+<requires>
+  <import addon="xbmc.python" version="3.0.0" />
+</requires>
+<extension point="xbmc.python.pluginsource" library="main.py">
+  <provides>video</provides>
+</extension>
+<extension point="xbmc.addon.metadata">
+  <summary lang="en">Piped Plugin</summary>
+  <description lang="en_GB">A piped frontend using the piped api to access youtube content for Kodi mediacenter.</description>
+  <disclaimer lang="en_GB">This project and its contents are not affiliated with, funded, authorized, endorsed by, or in any way accociated with YouTube, Google LLC or any of its affiliates and subsidaries. Any trademark, service mark, trade name, or other intellectual property rights used are owned by the respective owners.</disclaimer>
+  <assets>
+    <icon>icon.png</icon>
+    <fanart>fanart.jpg</fanart>
+  </assets>
+</extension>
+</addon><addon id="repository.tieu1991" name="tieu1991's repository" version="1.0" provider-name="tieu1991">
     <extension point="xbmc.addon.repository" name="tieu1991's repository">
         <dir>
             <info compressed="false">https://raw.githubusercontent.com/tieu1991/tieu1991.github.io/master/repo/zips/addons.xml</info>
@@ -17,29 +33,4 @@
             <fanart>fanart.jpg</fanart>
         </assets>
     </extension>
-</addon><addon id="script.hello.world" name="Hello World" version="1.0.2" provider-name="gigarepo">
-	<requires>
-	</requires>
-	<extension point="xbmc.python.script" library="addon.py">
-		<provides>executable</provides>
-	</extension>
-	<extension point="xbmc.addon.metadata">
-		<platform>all</platform>
-		<summary lang="en">Popup Hello World</summary>
-		<description lang="en">Example Script to show Hello World</description>
-		<license>GNU General Public License, v2</license>
-		<language />
-		<forum />
-		<source>https://github.com/gigarepo/script.hello.world</source>
-		<website>kodibeginner.com</website>
-		<email />
-		<assets>
-			<icon>icon.png</icon>
-			<fanart>fanart.jpg</fanart>
-			<screenshot>resources/screenshot-01.jpg</screenshot>
-			<screenshot>resources/screenshot-02.jpg</screenshot>
-			<screenshot>resources/screenshot-03.jpg</screenshot>
-		</assets>
-		<news>Updated the addon to use new addon.xml metadata</news>
-	</extension>
 </addon></addons>

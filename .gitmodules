@@ -1,0 +1,6 @@
+[submodule "repo/Piped4Kodi"]
+	path = repo/Piped4Kodi
+	url = https://github.com/tieu1991/Piped4Kodi.git
+[submodule "repo/plugin.video.piped4kodi"]
+	path = repo/plugin.video.piped4kodi
+	url = https://github.com/tieu1991/Piped4Kodi.git
